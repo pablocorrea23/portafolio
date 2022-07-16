@@ -3,7 +3,7 @@ import { Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
 import { Contacto } from '../components/Contacto';
 import { Curriculum } from '../components/Curriculum';
 import { Inicio } from '../components/Inicio';
-import { Footer } from '../components/layout/Footer';
+
 import { HeaderNav } from '../components/layout/HeaderNav';
 import { Portafolio } from '../components/Portafolio';
 import { Certificados } from '../components/Certificados';
@@ -34,8 +34,7 @@ export const MisRutas = () => {
 
 
 
-      {/*FOOTER*/}
-      <Footer />
+      
 
 
     </BrowserRouter>

@@ -31,14 +31,14 @@ export const trabajos = [
     {
         'id': 'calculadora',
         'nombre': 'Calculadora',
-        'url': 'https://proyecto-peliculas.vercel.app/',
+        'url': 'https://calc-coral-phi.vercel.app/',
         'tecnologias': 'HTML, CSS, JS, REACT',
         'categorias': 'Desarrollo Web'
     },
     {
         'id': 'clima',
         'nombre': 'App del clima',
-        'url': 'https://proyecto-peliculas.vercel.app/',
+        'url': 'https://appclima-peach.vercel.app/',
         'tecnologias': 'HTML, CSS, JS, REACT, API',
         'categorias': 'Desarrollo Web'  
     }

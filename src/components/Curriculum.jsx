@@ -9,7 +9,7 @@ export const Curriculum = () => {
       <h2>Sobre mí</h2>
       <p>
         Actualmente me dedico exclusivamente al desarrollo fullstack.
-        Disfruto acompañar, colaborar y compartir con otros miembros del equipo.
+        Disfruto acompañar, colaborar y compartir con otros miembros del equipo.<br/>
         Busco oportunidades laborales donde pueda seguir ampliando mis habilidades de desarrollo.
       </p>
 
