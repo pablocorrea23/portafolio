@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export const Contacto = () => {
   return (
     <div className='page-contacto'>
@@ -31,13 +32,18 @@ export const Contacto = () => {
         </div>
 
         <div className='cv'>
-          <a href="../../public/Currículum Corporativo Minimalista Azul marino.pdf" download='cv Pablo Correa'>Descargar cv</a>
+          <a href="../../public/cvpablo.pdf" download='cv Pablo Correa'>Descargar cv</a>
         </div>
 
 
         <div className='mail'>
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAABu0lEQVRYhe2Vv0tCURTHPzTYL2kPi5bSkggiaKh/olEopKS9vyKaWxsqtEWlqf6IpobKHFoaskWksJI2GzwPr9d7r76nDxr8wuHCOef7PV/vO+8JI4zwzzAHFIE6UAXyQGIAvYRoVEXzGlhyDa8BTS1+gIMAw/eFq+vVgJiJUJSGG2mYBS4U4iUw3cfgKen1eOeiFQNuJZc3EetS1N2p7ktA0jE8CTxpHBXzkvs0kU0ENV+S8xtIG/rSUlN7XXrWQpbOq/byk8CZoW8CODXk9UF6n9VAE3gEli2OM7SX60HCW9aM5ZeuiKbt0XQQnuX8AnYthFWgrNTKkjPp7YmWqu00EAVymlsTIQpcSUQdel7kpK+nAQ+HQEPJx00kC+IKryFatjnOwpqSrwOpPoanaL/STdHoNcdZ0K8yS+tjo2Oczi0P/Bra8mna238PLCo9C8Cd1H6BozAMAKwDL3Q+kh3gQ3KvwKYPPd8GAGaAAt1XXZCaX73AhDStDfeufFA9/wRgQ2IoekEMuNCX3lgA4aFCNfAu51aI87blrJiKJ3RvtvPfqwdcWscmQkRMVEI08CbDIwH0RhghHPwBaDIDg7X/kSgAAAAASUVORK5CYII=" alt="mail" />
           <h4>pablocorrea34@gmail.com</h4>
+        </div>
+
+        <div className='telefono'>
+        <img className='telefono-foto' src={require('../images/telefono1.png')} alt="imagen" />
+          <h4>+54 9 264 4511786</h4>
         </div>
 
       </div>
