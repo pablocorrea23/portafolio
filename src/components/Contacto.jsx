@@ -32,7 +32,7 @@ export const Contacto = () => {
         </div>
 
         <div className='cv'>
-          <a href="../../public/cvpablo.pdf" download='cv Pablo Correa'>Descargar cv</a>
+          <a href="./cvpablo.pdf" download='cv Pablo Correa'>Descargar cv</a>
         </div>
 
 
