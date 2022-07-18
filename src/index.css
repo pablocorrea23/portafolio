@@ -366,3 +366,212 @@ button {
   padding-left: 4px;
 }
 
+
+/* Haciendo la pagina resposive*/
+
+@media screen and (max-width: 1225px) {
+  .foto-logo {
+    border: 5px solid hsla(0, 0%, 100%, .644);
+    border-radius: 50%;
+    height: 200px;
+    margin-right: 50px;
+    object-fit: cover;
+    padding: 0;
+    width: 200px;
+  }
+
+  .logotec{
+    padding-right: 30px;
+  }
+
+  .header{
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 922px){
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .header h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  header nav ul {
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .contenedor-principal {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 30px;
+  }
+
+  .logotec {
+    display: none;
+  }
+
+  .imagen-logo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 63px;
+  }
+
+  .header h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .header nav ul {
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 0px;
+    margin-top: 30px;
+  }
+
+  .work-item .mask{
+    height: 140px;
+  }
+
+  .certificado{
+    width: 550px;
+    padding-right: 50px;
+  }
+
+  .page-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cabecera-contacto{
+    margin-right: 12px;
+  }
+
+  .cabecera-contacto form{
+    margin-bottom: 35px;
+  }
+
+}
+
+@media screen and (max-width: 710px){
+  .header{
+    display: flex;
+    flex-direction: column;
+    height: 210px;
+  }
+
+  .header nav{
+    margin-top: 0px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header nav ul{
+    height: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 0px;
+    margin-top: 30px;
+  }
+
+  .foto-logo {
+    border: 5px solid hsla(0, 0%, 100%, .644);
+    border-radius: 50%;
+    height: 150px;
+    margin-right: 50px;
+    object-fit: cover;
+    padding: 0;
+    width: 150px;
+  }
+
+  .contenedor-texto{
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .contenedor-texto h1{
+    font-size: 30px;
+  }
+
+  .contenedor-principal{
+    padding-right: 10px;
+  }
+
+  .layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .page .heading{
+    font-size: 45px;
+    padding-right: 10px;
+  }
+
+  .works{
+    padding-right: 10px;
+  }
+
+  .work-item .mask{
+    height: 120px;
+  }
+
+  .content{
+    padding-right: 10px;
+  }
+
+  .certificado{
+    width: 300px;
+    padding-right: 10px;
+  }
+
+  .page-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cabecera-contacto{
+    margin-right: 12px;
+  }
+
+  .cabecera-contacto form{
+    margin-bottom: 35px;
+  }
+}
