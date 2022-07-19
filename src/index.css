@@ -434,7 +434,7 @@ button {
     align-items: center;
     justify-content: center;
     display: flex;
-    padding-left: 63px;
+    padding-left: 50px;
   }
 
   .header h1 {
@@ -444,6 +444,8 @@ button {
     flex-direction: column;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    padding-left: 40px;
+    font-size: 38px;
   }
 
   .header nav ul {
@@ -496,6 +498,7 @@ button {
     padding-top: 30px;
     display: flex;
     flex-direction: column;
+    padding-left: 30px;
   }
   
   .header nav ul{
@@ -531,7 +534,8 @@ button {
   }
 
   .contenedor-principal{
-    padding-right: 10px;
+    padding-right: 0px;
+    padding-left: 12px;
   }
 
   .layout{
@@ -576,4 +580,10 @@ button {
   .cabecera-contacto form{
     margin-bottom: 35px;
   }
+}
+
+@media screen and (max-width: 378px){
+ .header h1{
+  font-size: 29px;
+ }
 }
