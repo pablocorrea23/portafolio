@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
 import { Contacto } from '../components/Contacto';
-import { Curriculum } from '../components/Curriculum';
+import { SobreMi } from '../components/SobreMi';
 import { Inicio } from '../components/Inicio';
 
 import { HeaderNav } from '../components/layout/HeaderNav';
@@ -22,7 +22,7 @@ export const MisRutas = () => {
           <Route path='/inicio' element={<Inicio />} />
           <Route path='/portafolio' element={<Portafolio />} />
           <Route path='/certificados' element={<Certificados />} />
-          <Route path='/curriculum' element={<Curriculum />} />
+          <Route path='/sobreMi' element={<SobreMi />} />
           <Route path='/contacto' element={<Contacto />} />
           <Route path='*' element={
             <div>

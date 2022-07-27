@@ -146,6 +146,13 @@ button {
 
 }
 
+.sobremi{
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(47, 48, 48);
+  opacity: 0.8;
+}
+
 .last-works {
   font-size: 40px;
 }
