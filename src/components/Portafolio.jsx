@@ -16,7 +16,7 @@ export const Portafolio = () => {
               <article key={trabajo.id} className='work-item'>
 
                 <div className='mask'>
-                  <img src={'/images/' + trabajo.id + '.png'} alt='imagen' />
+                  <img src={'/images/' + trabajo.id + '.png'} alt='imagen'/>
                 </div>
 
                 <span>{trabajo.categorias}</span>
