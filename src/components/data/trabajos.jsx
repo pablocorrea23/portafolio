@@ -22,6 +22,13 @@ export const trabajos = [
         'categorias': 'Desarrollo Web'
     },
     {
+        'id': 'Carrito',
+        'nombre': 'Carrito de compras',
+        'url': 'https://proyecto-san-juan-tec.vercel.app/',
+        'tecnologias': 'HTML, CSS, BOOSTRAP, JS',
+        'categorias': 'Desarrollo Web'
+    },
+    {
         'id': 'mispelis',
         'nombre': 'Mis pelis',
         'url': 'https://proyecto-peliculas.vercel.app/',
