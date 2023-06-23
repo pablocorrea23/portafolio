@@ -49,5 +49,19 @@ export const trabajos = [
         'url': 'https://crypto-market-roan.vercel.app/',
         'tecnologias': 'HTML, CSS, JS, REACT, API',
         'categorias': 'Desarrollo Web'
+    },
+    {
+        'id': 'vintme2',
+        'nombre': 'Wine NFT Market',
+        'url': '-',
+        'tecnologias': 'HTML, CSS, JS, REACT, API',
+        'categorias': 'Desarrollo Web'
+    },
+    {
+        'id': 'hotel',
+        'nombre': 'Hotel Cerro del Valle',
+        'url': '-',
+        'tecnologias': 'HTML, CSS, JS, REACT, API',
+        'categorias': 'Desarrollo Web'
     }
 ]
